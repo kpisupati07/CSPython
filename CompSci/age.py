@@ -1,0 +1,5 @@
+name=input('whats your name?')
+age=input('how old are you?')
+print('hello', name)
+print('you dont look', age, 'years old')
+print('you look', int(age)+21, 'years old')

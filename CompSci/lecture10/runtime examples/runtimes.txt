@@ -1,0 +1,48 @@
+## Run times for various programs:
+## (Measured on a macbook pro)
+## 
+## Eventually quadratic behavior  
+## Double the input size, double the runtime  
+
+Print List
+    N    seconds
+   1000  0.00078
+   2000  0.00135
+   4000  0.00323
+   8000  0.00628
+  16000  0.01224
+  32000  0.02589
+  64000  0.05343
+ 128000  0.11490
+ 256000  0.27449
+ 512000  0.48688
+1024000  1.04620
+2048000  2.14769
+4096000  4.21001
+
+// Eventually quadratic behavior  
+// Double the input size, quadruple the runtime  
+Print Times Table
+   N   seconds
+ 125   0.05915 
+ 250   0.29767
+ 500   1.12814
+1000   4.59652
+2000  18.35526
+4000  71.16215
+
+// BubbleSort
+// Eventually quadratic behavior  
+// Double the input size, quadruple the runtime  
+ (N, seconds)
+  1000   0.1835 
+  2000   0.7298
+  4000   2.9725
+  8000  12.3910
+ 16000  48.1380
+ 32000 194.1839 
+
+
+ 
+
+
